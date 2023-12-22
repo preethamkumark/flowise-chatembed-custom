@@ -53,14 +53,14 @@ export const Badge = (props: Props) => {
       Powered by
       <a
         ref={liteBadge}
-        href={'https://emvia.com'}
+        href={'https://mlopssol.com'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Emvia</span>
+        <span> MLOPS</span>
       </a>
     </span>
   );
